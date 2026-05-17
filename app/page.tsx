@@ -265,30 +265,37 @@ export default function JMCinemaFilmsWebsite() {
 
     <div className="grid md:grid-cols-2 gap-16 items-start">
       {/* FORM */}
-      <form className="space-y-6">
+      <form
+  action="https://formspree.io/f/xnjrawag"
+  method="POST"
+  className="space-y-6"
+>
         <input
-          type="text"
-          placeholder="Bride & Groom Names"
-          className="w-full bg-black border border-neutral-700 p-4 text-white outline-none"
-        />
+  type="text"
+  name="names"
+  placeholder="Bride & Groom Names"
+  className="w-full bg-black border border-neutral..."
+/>
 
         <input
           type="text"
+          name="wedding_date"
           placeholder="Wedding Date"
           className="w-full bg-black border border-neutral-700 p-4 text-white outline-none"
         />
 
         <input
           type="text"
+          name="wedding_location"
           placeholder="Wedding Location"
           className="w-full bg-black border border-neutral-700 p-4 text-white outline-none"
         />
 
         <textarea
-          placeholder="Tell us about your wedding vision..."
-          rows={6}
-          className="w-full bg-black border border-neutral-700 p-4 text-white outline-none"
-        />
+  name="message"
+  placeholder="Tell us about your wedding vision..."
+  className="w-full bg-black border border-neutral-700 p-4 text-white outline-none min-h-[220px]"
+/>
 
         <button
           className="w-full bg-white text-black py-4 uppercase tracking-widest text-sm hover:bg-neutral-200 transition duration-300"
