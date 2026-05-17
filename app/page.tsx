@@ -194,42 +194,169 @@ export default function JMCinemaFilmsWebsite() {
         </div>
       </section>
 
-      {/* CONTACT SECTION */}
-      <section
-        id="contact"
-        className="py-28 px-6 md:px-20 bg-neutral-950"
-      >
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="uppercase tracking-[0.4em] text-sm text-neutral-400 mb-5">
-            Contact
-          </p>
+     {/* TESTIMONIALS */}
+<section className="py-28 px-6 md:px-20">
+  <div className="max-w-6xl mx-auto text-center">
+    <p className="uppercase tracking-[0.4em] text-sm text-neutral-400 mb-5">
+      Testimonials
+    </p>
 
-          <h2 className="text-4xl md:text-6xl font-light mb-8">
-            Let’s Tell Your Story
-          </h2>
+    <h2 className="text-4xl md:text-6xl font-light mb-16">
+      Words From Our Couples
+    </h2>
 
-          <p className="text-neutral-400 text-lg leading-relaxed mb-12">
-            Inquire today to begin creating a timeless cinematic wedding film.
-          </p>
+    <div className="grid md:grid-cols-3 gap-8">
+      <div className="border border-neutral-800 p-10">
+        <p className="text-neutral-300 leading-relaxed mb-6 italic">
+          “Watching our wedding film felt like reliving the entire day
+          again. Every emotion was captured perfectly.”
+        </p>
 
-          <div className="flex flex-wrap justify-center gap-5">
+        <h3 className="text-lg tracking-wide">
+          — Sophia & Daniel
+        </h3>
+      </div>
+
+      <div className="border border-neutral-800 p-10">
+        <p className="text-neutral-300 leading-relaxed mb-6 italic">
+          “The cinematic quality was unreal. Our film honestly looks
+          like a movie.”
+        </p>
+
+        <h3 className="text-lg tracking-wide">
+          — Isabella & Marcus
+        </h3>
+      </div>
+
+      <div className="border border-neutral-800 p-10">
+        <p className="text-neutral-300 leading-relaxed mb-6 italic">
+          “Professional, emotional, and timeless. We couldn’t have
+          asked for a better experience.”
+        </p>
+
+        <h3 className="text-lg tracking-wide">
+          — Emily & Jordan
+        </h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+{/* INQUIRY SECTION */}
+<section
+  id="contact"
+  className="py-28 px-6 md:px-20 bg-neutral-950"
+>
+  <div className="max-w-5xl mx-auto">
+    <div className="text-center mb-16">
+      <p className="uppercase tracking-[0.4em] text-sm text-neutral-400 mb-5">
+        Inquire
+      </p>
+
+      <h2 className="text-4xl md:text-6xl font-light mb-8">
+        Let’s Create Something Timeless
+      </h2>
+
+      <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl mx-auto">
+        Custom Collections available upon inquiry.
+        Reach out to begin creating your cinematic wedding film.
+      </p>
+    </div>
+
+    <div className="grid md:grid-cols-2 gap-16 items-start">
+      {/* FORM */}
+      <form className="space-y-6">
+        <input
+          type="text"
+          placeholder="Bride & Groom Names"
+          className="w-full bg-black border border-neutral-700 p-4 text-white outline-none"
+        />
+
+        <input
+          type="text"
+          placeholder="Wedding Date"
+          className="w-full bg-black border border-neutral-700 p-4 text-white outline-none"
+        />
+
+        <input
+          type="text"
+          placeholder="Wedding Location"
+          className="w-full bg-black border border-neutral-700 p-4 text-white outline-none"
+        />
+
+        <textarea
+          placeholder="Tell us about your wedding vision..."
+          rows={6}
+          className="w-full bg-black border border-neutral-700 p-4 text-white outline-none"
+        />
+
+        <button
+          className="w-full bg-white text-black py-4 uppercase tracking-widest text-sm hover:bg-neutral-200 transition duration-300"
+        >
+          Send Inquiry
+        </button>
+      </form>
+
+      {/* CONTACT INFO */}
+      <div>
+        <h3 className="text-3xl font-light mb-8">
+          Contact Information
+        </h3>
+
+        <div className="space-y-6 text-neutral-300">
+          <div>
+            <p className="uppercase tracking-[0.3em] text-sm text-neutral-500 mb-2">
+              Email
+            </p>
+
             <a
-              href="mailto:youremail@gmail.com"
-              className="border border-white px-8 py-4 uppercase tracking-widest text-sm hover:bg-white hover:text-black transition duration-300"
+              href="mailto:jmcinemafilms@gmail.com"
+              className="text-lg hover:text-white transition"
             >
-              Email Us
+              jmcinemafilms@gmail.com
             </a>
+          </div>
+
+          <div>
+            <p className="uppercase tracking-[0.3em] text-sm text-neutral-500 mb-2">
+              Instagram
+            </p>
 
             <a
-              href="https://instagram.com"
+              href="https://instagram.com/jmcinemafilms"
               target="_blank"
-              className="bg-white text-black px-8 py-4 uppercase tracking-widest text-sm hover:bg-neutral-200 transition duration-300"
+              className="text-lg hover:text-white transition"
             >
-              Instagram
+              @JMcinemafilms
+            </a>
+          </div>
+
+          <div>
+            <p className="uppercase tracking-[0.3em] text-sm text-neutral-500 mb-2">
+              Facebook
+            </p>
+
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              className="text-lg hover:text-white transition"
+            >
+              JMCinemafilms
             </a>
           </div>
         </div>
-      </section>
+
+        <div className="mt-12 border border-neutral-800 p-8">
+          <p className="text-neutral-300 leading-relaxed">
+            We specialize in cinematic wedding storytelling —
+            creating timeless films that allow couples to relive
+            every emotion for years to come.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
     </main>
   );
 }
