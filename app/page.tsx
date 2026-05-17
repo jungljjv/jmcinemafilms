@@ -15,6 +15,11 @@ export default function JMCinemaFilmsWebsite() {
         <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
 
         <div className="relative z-10 text-center px-6 max-w-5xl">
+         <img
+  src="/logo.png"
+  alt="JMCinemaFilms Logo"
+  className="w-[260px] md:w-[340px] mx-auto mb-10 opacity-95"
+/> 
           <p className="uppercase tracking-[0.5em] text-sm md:text-base text-neutral-300 mb-6">
             Luxury Wedding Cinematography
           </p>
