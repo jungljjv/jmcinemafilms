@@ -1,4 +1,3 @@
-
 export default function JMCinemaFilmsWebsite() {
   return (
     <main className="bg-black text-white overflow-hidden">
