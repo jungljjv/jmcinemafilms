@@ -70,7 +70,7 @@ export default function JMCinemaFilmsWebsite() {
             </p>
 
             <p className="text-neutral-400 text-lg leading-relaxed">
-              Our focus is storytelling — blending elegant visuals,
+              Our focus is storytelling blending elegant visuals,
               cinematic movement, and authentic emotion into timeless films
               couples can relive forever.
             </p>
@@ -361,7 +361,7 @@ export default function JMCinemaFilmsWebsite() {
 
         <div className="mt-12 border border-neutral-800 p-8">
           <p className="text-neutral-300 leading-relaxed">
-            We specialize in cinematic wedding storytelling —
+            We specialize in cinematic wedding storytelling
             creating timeless films that allow couples to relive
             every emotion for years to come.
           </p>
