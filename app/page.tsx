@@ -12,16 +12,16 @@ export default function JMCinemaFilmsWebsite() {
           src="https://cdn.coverr.co/videos/coverr-wedding-toast-1561577607261?download=1080p"
         />
 
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
 
         <div className="relative z-10 text-center px-6 max-w-5xl">
           <p className="uppercase tracking-[0.5em] text-sm md:text-base text-neutral-300 mb-6">
             Luxury Wedding Cinematography
           </p>
 
-          <h1 className="text-5xl md:text-8xl font-light tracking-wide mb-8">
-            JMCINEMAFILMS
-          </h1>
+          <div className="mt-6 inline-block border border-neutral-700 px-5 py-2 text-sm tracking-[0.3em] uppercase text-neutral-300">
+  Now Booking 2026 Weddings
+</div>
 
           <p className="text-lg md:text-2xl text-neutral-300 leading-relaxed max-w-3xl mx-auto">
             Timeless cinematic wedding films crafted with emotion,
@@ -92,10 +92,10 @@ export default function JMCinemaFilmsWebsite() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div>
+            <div className="overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=1200&auto=format&fit=crop"
-                className="w-full h-[500px] object-cover"
+                className="w-full h-[500px] object-cover transition duration-500 hover:scale-105"
               />
 
               <div className="mt-5">
@@ -109,10 +109,10 @@ export default function JMCinemaFilmsWebsite() {
               </div>
             </div>
 
-            <div>
+            <div className="overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop"
-                className="w-full h-[500px] object-cover"
+                className="w-full h-[500px] object-cover transition duration-500 hover:scale-105"
               />
 
               <div className="mt-5">
@@ -126,10 +126,10 @@ export default function JMCinemaFilmsWebsite() {
               </div>
             </div>
 
-            <div>
+            <div className="overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=1200&auto=format&fit=crop"
-                className="w-full h-[500px] object-cover"
+                className="w-full h-[500px] object-cover transition duration-500 hover:scale-105"
               />
 
               <div className="mt-5">
@@ -202,7 +202,7 @@ export default function JMCinemaFilmsWebsite() {
     </p>
 
     <h2 className="text-4xl md:text-6xl font-light mb-16">
-      Words From Our Couples
+      Inspired Experiences
     </h2>
 
     <div className="grid md:grid-cols-3 gap-8">
@@ -274,7 +274,7 @@ export default function JMCinemaFilmsWebsite() {
   type="text"
   name="names"
   placeholder="Bride & Groom Names"
-  className="w-full bg-black border border-neutral..."
+  className="w-full bg-black border border-neutral-700 p-4 text-white outline-none"
 />
 
         <input
@@ -304,8 +304,9 @@ export default function JMCinemaFilmsWebsite() {
 />
 
         <button
-          className="w-full bg-white text-black py-4 uppercase tracking-widest text-sm hover:bg-neutral-200 transition duration-300"
-        >
+  type="submit"
+  className="w-full bg-white text-black py-4 uppercase tracking-widest text-sm hover:bg-neutral-200 transition duration-300"
+>
           Send Inquiry
         </button>
       </form>
