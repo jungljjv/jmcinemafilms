@@ -291,6 +291,12 @@ export default function JMCinemaFilmsWebsite() {
           className="w-full bg-black border border-neutral-700 p-4 text-white outline-none"
         />
 
+<input
+  type="text"
+  name="phone_number"
+  placeholder="Phone Number"
+  className="w-full bg-black border border-neutral-700 p-4 text-white outline-none"
+/>
         <textarea
   name="message"
   placeholder="Tell us about your wedding vision..."
