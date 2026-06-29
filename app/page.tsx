@@ -150,7 +150,7 @@ every glance, and every unforgettable moment of your day.
       <section className="py-28 px-6 md:px-20">
         <div className="max-w-6xl mx-auto text-center">
           <p className="uppercase tracking-[0.4em] text-sm text-neutral-400 mb-5">
-            Why Couples Choose Us
+            Why Couples Choose Me
           </p>
 
           <h2 className="text-4xl md:text-6xl font-light mb-16">
@@ -324,10 +324,10 @@ every glance, and every unforgettable moment of your day.
             </p>
 
             <a
-              href="mailto:jmcinemafilms@gmail.com"
+              href="mailto:leeverajay@gmail.com"
               className="text-lg hover:text-white transition"
             >
-              jmcinemafilms@gmail.com
+              leeverajay@gmail.com
             </a>
           </div>
 
