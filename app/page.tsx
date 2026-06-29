@@ -337,11 +337,11 @@ every glance, and every unforgettable moment of your day.
             </p>
 
             <a
-              href="https://instagram.com/jayleevera"
+              href="https://instagram.com/jay.leevera"
               target="_blank"
               className="text-lg hover:text-white transition"
             >
-              @jayleevera
+              @jay.leevera
             </a>
           </div>
 
@@ -355,7 +355,7 @@ every glance, and every unforgettable moment of your day.
               target="_blank"
               className="text-lg hover:text-white transition"
             >
-              JayLeeVera
+              JayLeeVeraWeddings
             </a>
           </div>
         </div>
