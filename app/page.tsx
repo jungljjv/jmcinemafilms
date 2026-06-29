@@ -1,4 +1,4 @@
-export default function JMCinemaFilmsWebsite() {
+export default function JayLeeVeraWebsite() {
   return (
     <main className="bg-black text-white overflow-hidden">
       {/* HERO SECTION */}
@@ -15,13 +15,11 @@ export default function JMCinemaFilmsWebsite() {
         <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
 
         <div className="relative z-10 text-center px-6 max-w-5xl">
-         <img
-  src="/logo.png"
-  alt="JMCinemaFilms Logo"
-  className="w-[260px] md:w-[340px] mx-auto mb-10 opacity-95"
-/> 
+         <h1 className="text-4xl md:text-6xl tracking-widest font-light text-white mb-10">
+  JayLeeVera
+</h1>
           <p className="uppercase tracking-[0.5em] text-sm md:text-base text-neutral-300 mb-6">
-            Luxury Wedding Cinematography
+            Cinematic Wedding Filmmaker
           </p>
 
           <div className="mt-6 inline-block border border-neutral-700 px-5 py-2 text-sm tracking-[0.3em] uppercase text-neutral-300">
@@ -29,8 +27,7 @@ export default function JMCinemaFilmsWebsite() {
 </div>
 
           <p className="text-lg md:text-2xl text-neutral-300 leading-relaxed max-w-3xl mx-auto">
-            Timeless cinematic wedding films crafted with emotion,
-            elegance, and unforgettable storytelling.
+            Cinematic wedding films that capture real emotion, real moments, and timeless storytelling.
           </p>
 
           <div className="mt-10 flex flex-wrap justify-center gap-5">
@@ -38,7 +35,7 @@ export default function JMCinemaFilmsWebsite() {
               href="#films"
               className="border border-white px-8 py-4 uppercase tracking-widest text-sm hover:bg-white hover:text-black transition duration-300"
             >
-              View Films
+              Watch Films
             </a>
 
             <a
@@ -70,14 +67,12 @@ export default function JMCinemaFilmsWebsite() {
             </h2>
 
             <p className="text-neutral-300 text-lg leading-relaxed mb-6">
-              We create cinematic wedding films that preserve every emotion,
-              every glance, and every unforgettable moment of your day.
+              I create cinematic wedding films that preserve every emotion,
+every glance, and every unforgettable moment of your day.
             </p>
 
             <p className="text-neutral-400 text-lg leading-relaxed">
-              Our focus is storytelling blending elegant visuals,
-              cinematic movement, and authentic emotion into timeless films
-              couples can relive forever.
+              My focus is storytelling — blending cinematic visuals, natural emotion, and authentic moments into timeless wedding films.
             </p>
           </div>
         </div>
@@ -342,11 +337,11 @@ export default function JMCinemaFilmsWebsite() {
             </p>
 
             <a
-              href="https://instagram.com/jmcinemafilms"
+              href="https://instagram.com/jayleevera"
               target="_blank"
               className="text-lg hover:text-white transition"
             >
-              @JMcinemafilms
+              @jayleevera
             </a>
           </div>
 
@@ -360,16 +355,14 @@ export default function JMCinemaFilmsWebsite() {
               target="_blank"
               className="text-lg hover:text-white transition"
             >
-              JMCinemafilms
+              JayLeeVera
             </a>
           </div>
         </div>
 
         <div className="mt-12 border border-neutral-800 p-8">
           <p className="text-neutral-300 leading-relaxed">
-            We specialize in cinematic wedding storytelling
-            creating timeless films that allow couples to relive
-            every emotion for years to come.
+            I specialize in cinematic wedding storytelling, creating timeless films that allow couples to relive their wedding day forever.
           </p>
         </div>
       </div>
