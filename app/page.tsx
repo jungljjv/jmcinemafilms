@@ -59,7 +59,7 @@ export default function JayLeeVeraWebsite() {
 
           <div>
             <p className="uppercase tracking-[0.4em] text-sm text-neutral-400 mb-5">
-              Our Approach
+              My Approach
             </p>
 
             <h2 className="text-4xl md:text-6xl font-light mb-8 leading-tight">
@@ -72,7 +72,7 @@ every glance, and every unforgettable moment of your day.
             </p>
 
             <p className="text-neutral-400 text-lg leading-relaxed">
-              My focus is storytelling — blending cinematic visuals, natural emotion, and authentic moments into timeless wedding films.
+              My focus is storytelling blending cinematic visuals, natural emotion, and authentic moments into timeless wedding films.
             </p>
           </div>
         </div>
@@ -186,7 +186,7 @@ every glance, and every unforgettable moment of your day.
               </h3>
 
               <p className="text-neutral-400 leading-relaxed">
-                We create films that allow couples to relive
+                I create films that allow couples to relive
                 the emotion of their wedding day forever.
               </p>
             </div>
